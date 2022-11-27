@@ -9,7 +9,7 @@ class Example(Cog):
   # End
 
   # EXAMPLE COMMAND
-  @discord.app_commands.command(name="hello", description="Đẹp trai bố đời")
+  @discord.app_commands.command(name="hello", description="Example")
   async def introduce(self, interaction: discord.Interaction, name: str):
     # Defer to make sure command can finish before Interaction token expires
     await interaction.response.defer()
