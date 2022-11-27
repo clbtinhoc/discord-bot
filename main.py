@@ -1,6 +1,6 @@
 from discord import Object, Intents
 from discord.ext import commands
-from os import getenv
+from os import getenv, system
 from dotenv import load_dotenv
 from utility import get_json_data, get_files
 from subprocess import run
@@ -22,7 +22,7 @@ class Client(commands.Bot):
     )
 
   async def on_ready(self):
-      run(["pyclean", ".", "-q"])
+      system("pyclean . -q")
       print(f"Bot is ready! Logged in as {self.user}!")
 
   async def setup_hook(self):
