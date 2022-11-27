@@ -1,0 +1,4 @@
+{
+    "prefix": "$",
+    "cogs_not_to_load": ["example.py"]
+}
