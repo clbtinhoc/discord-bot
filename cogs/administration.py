@@ -8,6 +8,7 @@
 #  \/|` '|\/;; <;/
 # ((; \_/  (()       lftroq?_NooberrUwU
 #      "
+# This cogs will add a command to the bot: when done coding, save and do '/reload' to reload all cogs instead of rerun the bot
 
 import discord
 from discord.ext import commands
